@@ -15,4 +15,4 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
 Para clonar este repositorio en tu máquina local, abre una terminal y ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+git clone https://github.com/Daniielpro/RelojDigital.git
