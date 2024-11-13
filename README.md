@@ -24,14 +24,19 @@ git clone https://github.com/Daniielpro/RelojDigital.git
 
 To run the project locally, follow these steps:
 
-1. Open terminal from the root folder of the project. 
+1. Open terminal from the root folder of the project.
 
-2. Issue the following command
+2. install the library if necessary
+
+   ````bash
+   pip install flask
+
+4. Issue the following command
 
    ````bash
    python app.py
 
-3. Open the terminal: http://localhost:8082
+5. Open the terminal: http://localhost:8082
 
 ## Running Dcoker
 
