@@ -1,18 +1,49 @@
-# Reloj en Tiempo Real
+ 
+# Real Time Clock
 
-Este proyecto es una aplicación de reloj en tiempo real creada con Python y Flask. La aplicación muestra la hora actual y se actualiza automáticamente cada segundo.
+This project is a real-time clock application created with Python and Flask. The application displays the current time and updates automatically every second.
 
-## Requisitos
+## Requirements
 
-Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
+Before running the application, make sure you have the following installed:
 
-- [Python 3.6 o superior](https://www.python.org/downloads/)
+- [Python 3.6 or higher](https://www.python.org/downloads/)
+
 - [pip](https://pip.pypa.io/en/stable/installation/)
-- (Opcional) [Git](https://git-scm.com/downloads) para clonar el repositorio
 
-## Clonar el Repositorio
+- (Optional) [Git](https://git-scm.com/downloads) to clone the repository
 
-Para clonar este repositorio en tu máquina local, abre una terminal y ejecuta el siguiente comando:
+## Clone Repository
 
-```bash
-git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+To clone this repository on your local machine, open a terminal and run the following command:
+`bash
+
+  git clone https://github.com/Daniielpro/RelojDigital.git
+
+ 
+## Local Execution
+
+To run the project locally, follow these steps:
+
+1. Open terminal from the root folder of the project. 
+
+2. Issue the following command
+
+   ````bash
+   python app.py
+
+3. Open the terminal: http://localhost:8082
+
+## Running Dcoker
+
+To run the project using Docker, follow these steps:
+
+1. Open terminal from the root folder of the project.
+
+2. Issue the following command
+   ````bash
+   docker build -t username/appname .
+
+3. Issue the following command
+   ````bash
+   docker run -d -p 8082:8082 username/nameapp
