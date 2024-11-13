@@ -17,8 +17,7 @@ Before running the application, make sure you have the following installed:
 
 To clone this repository on your local machine, open a terminal and run the following command:
 `bash
-
-  git clone https://github.com/Daniielpro/RelojDigital.git
+git clone https://github.com/Daniielpro/RelojDigital.git
 
  
 ## Local Execution
@@ -47,3 +46,4 @@ To run the project using Docker, follow these steps:
 3. Issue the following command
    ````bash
    docker run -d -p 8082:8082 username/nameapp
+
